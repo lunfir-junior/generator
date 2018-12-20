@@ -1,0 +1,14 @@
+Article:
+    fields:
+        title: varchar(50)
+        text: text
+
+Category: varchar(10)
+    # fields:
+    #     title: varchar(50)
+
+Tickets: numeric(5, 2)
+    # fields:
+    #     flight: varchar(20)
+    #     price: numeric(5, 2)
+    #     status: varchar(10)
