@@ -1,0 +1,19 @@
+{
+    "Category": {
+        "fields": {
+            "title": "varchar(50)"
+        }, 
+        "relations": {
+            "Article": "many"
+        }
+    }, 
+    "Article": {
+        "fields": {
+            "text": "text", 
+            "title": "varchar(50)"
+        }, 
+        "relations": {
+            "Category": "one"
+        }
+    }
+}
